@@ -96,8 +96,8 @@ export default function FeaturedProject() {
                 <Image
                   src={screenshot.src}
                   alt={screenshot.alt}
-                  width={1200}
-                  height={750}
+                  width={screenshot.width}
+                  height={screenshot.height}
                   className="h-auto w-full"
                 />
                 <figcaption className="border-t border-foreground/10 px-4 py-3 text-sm leading-relaxed text-foreground/70">

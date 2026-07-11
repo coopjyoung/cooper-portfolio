@@ -57,32 +57,43 @@ export const project = {
   screenshots: [
     {
       src: "/projects/concord/homepage.png",
-      alt: "Concord homepage",
+      alt: "Concord homepage feed",
+      width: 3200,
+      height: 2000,
       caption:
-        "Homepage — the landing experience introducing Concord's AI-driven intelligence reports.",
+        "Homepage — the main feed surfacing breaking stories with confidence scores, source counts, and one-click access to full intelligence reports.",
     },
     {
       src: "/projects/concord/intelligence-report.png",
       alt: "Concord intelligence report page",
+      width: 3200,
+      height: 2000,
       caption:
-        "Intelligence Report — a structured, source-compared report generated from aggregated sources.",
+        "Intelligence Report — fact-checked claims with confidence scores, plus a transparent view of the generation pipeline (fact extraction → agreement analysis → intelligence generation → quality review) and every source consulted.",
     },
     {
       src: "/projects/concord/story-page.png",
       alt: "Concord story page",
+      width: 3200,
+      height: 2000,
       caption:
-        "Story Page — a single story broken down with context, background, and related coverage.",
+        "Story Page — a single story with a \"What changed\" summary tracking confidence shifts and fact updates over time, alongside the full reported context.",
     },
     {
       src: "/projects/concord/pulse.png",
       alt: "Concord pulse page",
-      caption: "Pulse — a real-time view of trending stories and topic momentum.",
+      width: 2360,
+      height: 2000,
+      caption:
+        "Pulse — a short-form, swipeable video feed for following breaking stories in real time.",
     },
     {
       src: "/projects/concord/ai-features.png",
       alt: "Concord AI feature examples",
+      width: 3200,
+      height: 2000,
       caption:
-        "AI Features — examples of AI-assisted analysis, summarization, and transparency indicators in action.",
+        "AI Features — \"Ask Concord\" lets readers query a story directly, with answers grounded in the sourced reporting shown above.",
     },
   ],
 };
