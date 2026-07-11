@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ScreenshotGallery from "@/components/ScreenshotGallery";
 import { project } from "@/lib/data";
 
 export default function FeaturedProject() {
@@ -87,25 +87,10 @@ export default function FeaturedProject() {
 
         <div className="mt-8">
           <h4 className="text-sm font-semibold text-foreground">Screenshots</h4>
-          <div className="mt-3 grid gap-6 sm:grid-cols-2">
-            {project.screenshots.map((screenshot) => (
-              <figure
-                key={screenshot.src}
-                className="overflow-hidden rounded-lg border border-foreground/10"
-              >
-                <Image
-                  src={screenshot.src}
-                  alt={screenshot.alt}
-                  width={screenshot.width}
-                  height={screenshot.height}
-                  className="h-auto w-full"
-                />
-                <figcaption className="border-t border-foreground/10 px-4 py-3 text-sm leading-relaxed text-foreground/70">
-                  {screenshot.caption}
-                </figcaption>
-              </figure>
-            ))}
-          </div>
+          <p className="mt-1 text-xs text-foreground/50">
+            Click any screenshot to view it larger.
+          </p>
+          <ScreenshotGallery screenshots={project.screenshots} />
         </div>
       </div>
     </section>
