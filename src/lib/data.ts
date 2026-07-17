@@ -9,7 +9,7 @@ export const profile = {
 export const links = {
   github: "https://github.com/coopjyoung",
   linkedin: "https://www.linkedin.com/in/cooper-young1",
-  concord: "https://concord-news.vercel.app/",
+  concord: "https://concordhq.us/",
   email: "coop3ryoung@gmail.com",
   phone: "(425) 318-5251",
   phoneHref: "+14253185251",
@@ -27,7 +27,7 @@ export const project = {
   role: "Founder & Developer",
   period: "2026",
   url: links.concord,
-  urlLabel: "concord-news.vercel.app",
+  urlLabel: "concordhq.us",
   problem:
     "People are flooded with fragmented, biased, and often untrustworthy information online, making it hard to quickly build a confident, well-sourced understanding of complex or fast-moving topics.",
   solution:
